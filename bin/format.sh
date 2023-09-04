@@ -67,7 +67,7 @@ checkFile() {
     return $failed
 }
 
-# Expected respones format:
+# Expected response format:
 # Header row is either FILE: or ERROR:
 # File contents follows FILE: until we see string EOF
 # e.g.
@@ -94,7 +94,7 @@ formatFiles() {
     local curFile="/dev/null"
     findFiles | (
         local failed=0
-        # Parse respones line-by-line
+        # Parse response line-by-line
         while IFS= read -r line; do
             # New file header
             if [[ "$line" =~ FILE:\ (.+) ]]; then
