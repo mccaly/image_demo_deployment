@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+mmcv_backup/
+=======
 # From https://github.com/github/gitignore/blob/main/Python.gitignore
 
 # Byte-compiled / optimized / DLL files
@@ -157,3 +160,4 @@ $RECYCLE.BIN/
 
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
+>>>>>>> origin/main

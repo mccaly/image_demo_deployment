@@ -1,0 +1,9 @@
+owner: andrewmccalister@googlemail.com
+runtimeInfo:
+  mainFunction: run_image_demo
+  mainFunctionArgs:
+    - image_path:str
+    - config_path:str
+    - checkpoint_path:str
+    - device:str
+  pythonVersion: "3.8"
